@@ -1,0 +1,13 @@
+Index: kde-dev-scripts/package_crystalsvg
+===================================================================
+--- kde-dev-scripts.orig/package_crystalsvg	2013-09-22 18:43:17.623685891 +0200
++++ kde-dev-scripts/package_crystalsvg	2013-09-22 18:43:45.470586963 +0200
+@@ -156,7 +156,7 @@
+ # Package it
+ echo -n "Packaging the files..."
+ 
+-nice -n$NICE tar -cjf "$PKGPATH/$PKGNAME".tar.bz2" -C "$TDIR" "$PKGNAME" 2>/dev/null
++nice -n$NICE tar -cjf "$PKGPATH/$PKGNAME".tar.bz2 -C "$TDIR" "$PKGNAME" 2>/dev/null
+ 
+ if [ $? -ne 0 ]; then
+ 	echo "There was an error while packaging the files. Exiting."

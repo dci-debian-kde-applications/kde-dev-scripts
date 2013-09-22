@@ -1,0 +1,2 @@
+kdesdk-scripts: shell-script-fails-syntax-check usr/bin/cvsversion
+kdesdk-scripts: shell-script-fails-syntax-check usr/bin/svnversions
