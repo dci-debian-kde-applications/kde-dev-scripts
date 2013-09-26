@@ -1,5 +1,6 @@
 kde-dev-scripts (4:4.11.1-0r0) UNRELEASED; urgency=low
 
   * First release of kdesdk after being split by upstream.
+  * Update debian/copyright.
 
  -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Sep 2013 17:12:32 +0200
