@@ -17,6 +17,7 @@ usr/bin/cvslastlog
 usr/bin/cvsrevertlast
 usr/bin/cvsversion
 usr/bin/cxxmetric
+usr/bin/draw_lib_dependencies
 usr/bin/extend_dmalloc
 usr/bin/extractattr
 usr/bin/extractrc
