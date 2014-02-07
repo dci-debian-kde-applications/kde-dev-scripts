@@ -41,6 +41,7 @@ usr/bin/package_crystalsvg
 usr/bin/png2mng.pl
 usr/bin/pruneemptydirs
 usr/bin/qtdoc
+usr/bin/reviewboard-am
 usr/bin/svn-clean-kde
 usr/bin/svnbackport
 usr/bin/svnchangesince

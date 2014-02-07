@@ -2,6 +2,7 @@ kde-dev-scripts (4:4.12.2-1) UNRELEASED; urgency=medium
 
   * Bump Standards-Version to 3.9.5, no changes needed.
   * New upstream release.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Feb 2014 00:00:38 +0100
 
