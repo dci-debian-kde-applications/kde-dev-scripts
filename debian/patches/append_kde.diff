@@ -5,8 +5,8 @@ Bug-Debian: http://bugs.debian.org/461095
 
 Index: kde-dev-scripts/CMakeLists.txt
 ===================================================================
---- kde-dev-scripts.orig/CMakeLists.txt	2013-09-22 16:05:09.321907891 +0000
-+++ kde-dev-scripts/CMakeLists.txt	2013-09-22 16:06:49.441939604 +0000
+--- kde-dev-scripts.orig/CMakeLists.txt	2014-02-08 23:45:47.936915266 +0100
++++ kde-dev-scripts/CMakeLists.txt	2014-02-08 23:45:47.936915266 +0100
 @@ -59,7 +59,6 @@
    cvs-clean
    cvsblame
@@ -15,8 +15,8 @@ Index: kde-dev-scripts/CMakeLists.txt
    svnlastchange
    svnversions
    extractrc
-@@ -80,3 +79,4 @@
-   kde-systemsettings-tree.py
+@@ -81,3 +80,4 @@
+   reviewboard-am
    DESTINATION ${BIN_INSTALL_DIR})
  
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
