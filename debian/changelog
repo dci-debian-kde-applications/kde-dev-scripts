@@ -5,6 +5,7 @@ kde-dev-scripts (4:4.12.2-1) UNRELEASED; urgency=medium
   * Update install files.
   * Remove patch: fix_package_crystalsvg_typo, applied by upstream.
   * Refresh patches.
+  * Bump kde-sc-dev-latest build dependency.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 05 Feb 2014 00:00:38 +0100
 
