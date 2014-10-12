@@ -7,3 +7,6 @@ override_dh_auto_install:
 
 override_dh_installman:
 	$(overridden_command) --language=C
+
+override_dh_compress:
+	$(overridden_command) -Xexamples
