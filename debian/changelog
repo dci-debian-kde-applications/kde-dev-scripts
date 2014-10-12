@@ -4,6 +4,7 @@ kde-dev-scripts (4:4.14.1-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Make sure to not compress examples. (Closes: #764857)
   * Update lintian overrides.
+  * Install kde-emacs among the examples. (Closes: #698028)
 
   [ Maximiliano Curia ]
   * Update watch file.
