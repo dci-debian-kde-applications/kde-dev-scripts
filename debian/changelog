@@ -6,6 +6,9 @@ kde-dev-scripts (4:4.14.1-0r1) UNRELEASED; urgency=medium
   * Update lintian overrides.
   * Install kde-emacs among the examples. (Closes: #698028)
   * Bump Standards-Version to 3.9.6, no changes required.
+  * Do not use debian/tmp as temporary install location, just install to the
+    single package tree, removing the few bits not needed; this eases
+    maintenance and updating of installed files.
 
   [ Maximiliano Curia ]
   * Update watch file.

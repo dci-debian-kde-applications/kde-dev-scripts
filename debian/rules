@@ -3,7 +3,11 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/tmp
+	$(overridden_command)
+	# remove man pages of non-existing scripts
+	rm debian/kdesdk-scripts/usr/share/man/man1/fixincludes.1
+	rm debian/kdesdk-scripts/usr/share/man/man1/reportview.1
+	rm debian/kdesdk-scripts/usr/share/man/man1/transxx.1
 
 override_dh_installman:
 	$(overridden_command) --language=C
