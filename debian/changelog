@@ -3,6 +3,9 @@ kde-dev-scripts (4:4.14.1-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
 
+  [ Maximiliano Curia ]
+  * Update watch file.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Oct 2014 09:04:02 +0200
 
 kde-dev-scripts (4:4.14.0-1) unstable; urgency=medium
