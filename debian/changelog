@@ -3,6 +3,7 @@ kde-dev-scripts (4:4.14.1-0r1) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * New upstream release.
   * Make sure to not compress examples. (Closes: #764857)
+  * Update lintian overrides.
 
   [ Maximiliano Curia ]
   * Update watch file.
