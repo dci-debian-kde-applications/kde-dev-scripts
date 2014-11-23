@@ -17,11 +17,36 @@ kde-dev-scripts (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 04:19:01 -0700
 
+kde-dev-scripts (4:4.14.1-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Pino Toscano ]
+  * New upstream release.
+  * Make sure to not compress examples. (Closes: #764857)
+  * Update lintian overrides.
+  * Install kde-emacs among the examples. (Closes: #698028)
+  * Bump Standards-Version to 3.9.6, no changes required.
+  * Do not use debian/tmp as temporary install location, just install to the
+    single package tree, removing the few bits not needed; this eases
+    maintenance and updating of installed files.
+
+  [ Maximiliano Curia ]
+  * Update watch file.
+
+ -- Pino Toscano <pino@debian.org>  Sun, 12 Oct 2014 10:26:22 +0200
+
 kde-dev-scripts (4:4.14.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Mon, 22 Sep 2014 16:42:08 +0200
+
+kde-dev-scripts (4:4.14.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 20:43:18 +0200
 
 kde-dev-scripts (4:4.14.0-0ubuntu1) utopic; urgency=medium
 
