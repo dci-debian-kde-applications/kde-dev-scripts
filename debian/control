@@ -20,7 +20,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kde-dev-scripts.git
 Package: kdesdk-scripts
 Architecture: all
 Section: devel
-Depends: python, ${misc:Depends}, ${perl:Depends}
+Depends: pkg-kde-tools, python, ${misc:Depends}, ${perl:Depends}
 Recommends: advancecomp, gawk, optipng, subversion
 Suggests: cvs,
           devscripts,
@@ -32,6 +32,8 @@ Suggests: cvs,
           valgrind,
           xsltproc
 Enhances: kate
+Breaks: pkg-kde-tools (<< 0.15.12ubuntu1~)
+Replaces: pkg-kde-tools (<< 0.15.12ubuntu1~)
 Description: scripts and data files for development
  This package contains scripts and data files to facilitate development of
  KDE software.  Also included are scripts which are not specific to
