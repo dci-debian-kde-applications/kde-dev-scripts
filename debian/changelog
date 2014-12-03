@@ -1,5 +1,6 @@
 kde-dev-scripts (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Philip Muškovac ]
   * Merge with debian unstable, remaining changes:
     - kdesdk-scripts depends on pkg-kde-tools
     - kdesdk-scripts breaks/replaces pkg-kde-tools (<< 0.15.12ubuntu1~)
@@ -7,6 +8,10 @@ kde-dev-scripts (4:14.11.97-0ubuntu1) UNRELEASED; urgency=medium
   * Fix watch urls for new release location
   * Update Vcs urls for the new repository location
   * Update the maintainer
+
+  [ Jonathan Riddell ]
+  * Build-dep on kdoctools-dev and remove kde4 build-deps
+  * Add upstream_install-man.diff to install man pages
 
  -- Philip Muškovac <yofel@kubuntu.org>  Sun, 23 Nov 2014 16:54:43 +0100
 

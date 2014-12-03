@@ -1,0 +1,20 @@
+commit 6eb25e115420a41a2e54238136675c692e66870f
+Author: Jonathan Riddell <jr@jriddell.org>
+Date:   Wed Dec 3 16:43:51 2014 +0100
+
+    use ECM as this sets MAN_INSTALL_DIR
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 27fe837..b0d6fa0 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -3,6 +3,9 @@ project(kde-dev-scripts)
+ 
+ find_package(KF5DocTools)
+ if(KF5DocTools_FOUND)
++  find_package(ECM 1.3.0 REQUIRED NO_MODULE)
++  set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR})
++  include(KDEInstallDirs)
+   function(create_manpage)
+     kdoctools_create_manpage(${ARGN})
+   endfunction()
