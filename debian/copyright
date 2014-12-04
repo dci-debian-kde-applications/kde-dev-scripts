@@ -28,6 +28,7 @@ Files: qt4/adapt-to-icon-spec.py
        rc2kcfgxt.pl
 Copyright: no copyright claimed
 License: public-domain
+ No copyright restrictions.
 
 Files: kde-emacs/kde-emacs-bindings.el
        kde-emacs/kde-emacs-core.el
