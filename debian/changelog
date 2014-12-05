@@ -1,4 +1,4 @@
-kde-dev-scripts (4:14.11.97-0ubuntu1~ubuntu15.04~ppa6) vivid; urgency=medium
+kde-dev-scripts (4:14.11.97-0ubuntu1) vivid; urgency=medium
 
   [ Philip Muškovac ]
   * Merge with debian unstable, remaining changes:
