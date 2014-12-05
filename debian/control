@@ -28,7 +28,7 @@ Suggests: cvs,
           dmalloc,
           gdb,
           kdelibs5-doc,
-          khelpcenter4,
+          khelpcenter,
           qt4-doc,
           valgrind,
           xsltproc
