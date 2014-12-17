@@ -3,11 +3,11 @@ Description: Append "-kde" to svn-clean like KDE3.
  svn-clean script is provided by subversion-tools.
 Bug-Debian: http://bugs.debian.org/461095
 
-Index: kde-dev-scripts/CMakeLists.txt
+Index: kde-dev-scripts-14.12.0/CMakeLists.txt
 ===================================================================
---- kde-dev-scripts.orig/CMakeLists.txt	2014-02-08 23:45:47.936915266 +0100
-+++ kde-dev-scripts/CMakeLists.txt	2014-02-08 23:45:47.936915266 +0100
-@@ -59,7 +59,6 @@
+--- kde-dev-scripts-14.12.0.orig/CMakeLists.txt
++++ kde-dev-scripts-14.12.0/CMakeLists.txt
+@@ -75,7 +75,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
    colorsvn
@@ -15,8 +15,9 @@ Index: kde-dev-scripts/CMakeLists.txt
    svnlastchange
    svnversions
    extractrc
-@@ -81,3 +80,4 @@
+@@ -96,3 +95,5 @@ install(PROGRAMS
+   kde-systemsettings-tree.py
    reviewboard-am
    DESTINATION ${BIN_INSTALL_DIR})
- 
++
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
