@@ -1,11 +1,11 @@
-kde-dev-scripts (4:14.12.2-1~) UNRELEASED; urgency=medium
+kde-dev-scripts (4:14.12.2-1) experimental; urgency=medium
 
   * Prepare Debian release.
   * Update build dependencies to build against experimental and to
     follow cmake.
   * Update copyright information.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 13:07:14 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:41:07 +0100
 
 kde-dev-scripts (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
