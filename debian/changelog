@@ -1,3 +1,9 @@
+kde-dev-scripts (4:15.04.0-0ubuntu1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 28 Apr 2015 21:57:25 +0200
+
 kde-dev-scripts (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
