@@ -4,6 +4,8 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_install:
 	$(overridden_command)
+
+override_dh_auto_install-indep:
 	# remove man pages of non-existing scripts
 	rm debian/kdesdk-scripts/usr/share/man/man1/fixincludes.1
 	rm debian/kdesdk-scripts/usr/share/man/man1/reportview.1

@@ -12,11 +12,26 @@ kde-dev-scripts (4:15.04.2-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Jun 2015 18:48:53 +0200
 
+kde-dev-scripts (4:15.04.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (15.04.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 16:46:34 +0200
+
 kde-dev-scripts (4:14.12.3-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 13 Mar 2015 13:20:37 -0700
+
+kde-dev-scripts (4:14.12.2-1) experimental; urgency=medium
+
+  * Prepare Debian release.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Feb 2015 15:41:07 +0100
 
 kde-dev-scripts (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
