@@ -1,6 +1,6 @@
 debian/man/build-progress.sh.1
-debian/man/cvsbackport.1
 debian/man/cvs-clean.1
+debian/man/cvsbackport.1
 debian/man/cvsforwardport.1
 debian/man/extractattr.1
 debian/man/findmissingcrystal.1
