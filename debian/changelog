@@ -1,9 +1,9 @@
-kde-dev-scripts (4:15.08.0-1~) UNRELEASED; urgency=medium
+kde-dev-scripts (4:15.08.0-1) unstable; urgency=medium
 
   * New upstream release (15.04.0).
   * New upstream release (15.08.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 20:10:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 08 Sep 2015 20:17:53 +0200
 
 kde-dev-scripts (4:15.08.0-0ubuntu1) wily; urgency=medium
 
