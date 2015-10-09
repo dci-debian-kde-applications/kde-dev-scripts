@@ -1,8 +1,9 @@
-kde-dev-scripts (4:15.08.1-0ubuntu1) UNRELEASED; urgency=medium
+kde-dev-scripts (4:15.08.2-0ubuntu1) UNRELEASED; urgency=medium
 
   * Vivid backport
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 01 Oct 2015 09:50:46 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 13:53:15 -0700
 
 kde-dev-scripts (4:15.08.1-0ubuntu1) wily; urgency=medium
 
