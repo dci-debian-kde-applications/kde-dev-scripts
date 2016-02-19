@@ -1,7 +1,8 @@
 kde-dev-scripts (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release.
-  * Debain merge: No remaining changes. 
+  * Debian merge: No remaining changes. 
+  * Fix typo. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 30 Jan 2016 06:44:46 -0800
 
