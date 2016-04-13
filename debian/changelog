@@ -1,3 +1,11 @@
+kde-dev-scripts (4:15.12.0-2~1.gbpbc9001) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @bc9001f7ccd44517cf0f8cc0a41b176a16d6a8e8 **
+
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:28:05 +0200
+
 kde-dev-scripts (4:15.12.0-1) experimental; urgency=medium
 
   * New upstream release (15.12.0).
