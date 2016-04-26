@@ -1,5 +1,5 @@
 From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Date: Thu, 21 Apr 2016 08:27:09 +0200
+Date: Thu, 21 Apr 2016 02:27:13 +0200
 Subject: append_kde
 
 ---
@@ -7,10 +7,10 @@ Subject: append_kde
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index c49ee41..e16931c 100644
+index db5f85c..e26ecce 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -75,7 +75,6 @@ install(PROGRAMS
+@@ -76,7 +76,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
    colorsvn
@@ -18,9 +18,10 @@ index c49ee41..e16931c 100644
    svnlastchange
    svnversions
    extractrc
-@@ -96,3 +95,5 @@ install(PROGRAMS
-   kde-systemsettings-tree.py
+@@ -98,4 +97,6 @@ install(PROGRAMS
    reviewboard-am
    DESTINATION ${BIN_INSTALL_DIR})
-+
+ 
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
++
+ feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
