@@ -1,11 +1,14 @@
-kde-dev-scripts (4:16.04.0-1~1.gbp33601c) UNRELEASED; urgency=medium
+kde-dev-scripts (4:16.04.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @33601c7cb54cb68727d3048e1c83487507f80119 **
-
+  [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 21 Apr 2016 08:27:11 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:35:31 +0200
 
 kde-dev-scripts (4:15.12.0-1) experimental; urgency=medium
 
