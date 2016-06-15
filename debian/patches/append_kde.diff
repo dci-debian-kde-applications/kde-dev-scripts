@@ -7,7 +7,7 @@ Subject: append_kde
  1 file changed, 2 insertions(+), 1 deletion(-)
 
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index db5f85c..e26ecce 100644
+index 4879e87..8337ffb 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
 @@ -76,7 +76,6 @@ install(PROGRAMS
@@ -18,8 +18,8 @@ index db5f85c..e26ecce 100644
    svnlastchange
    svnversions
    extractrc
-@@ -98,4 +97,6 @@ install(PROGRAMS
-   reviewboard-am
+@@ -99,4 +98,6 @@ install(PROGRAMS
+   grantlee_strings_extractor.py
    DESTINATION ${BIN_INSTALL_DIR})
  
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
