@@ -1,10 +1,9 @@
-kde-dev-scripts (4:16.04.2-1~1.gbpda65d2) UNRELEASED; urgency=medium
+kde-dev-scripts (4:16.04.2-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @da65d2e483a6c948955f52c0f6287dfcc6df28d0 **
-
+  [ Automatic packaging ]
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 02:27:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 21 Jun 2016 19:57:24 +0200
 
 kde-dev-scripts (4:16.04.0-1) unstable; urgency=medium
 
