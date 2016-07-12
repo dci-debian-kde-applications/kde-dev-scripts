@@ -1,3 +1,9 @@
+kde-dev-scripts (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 11:38:45 +0000
+
 kde-dev-scripts (4:16.04.2-1) unstable; urgency=medium
 
   [ Automatic packaging ]
