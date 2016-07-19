@@ -19,7 +19,7 @@ Index: kde-dev-scripts/CMakeLists.txt
    svnversions
    extractrc
 @@ -99,4 +98,6 @@ install(PROGRAMS
-   grantlee_strings_extractor
+   grantlee_strings_extractor.py
    DESTINATION ${BIN_INSTALL_DIR})
  
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
