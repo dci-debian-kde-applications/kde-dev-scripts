@@ -9,3 +9,4 @@ kdesdk-scripts: script-with-language-extension usr/bin/kdelnk2desktop.py
 kdesdk-scripts: script-with-language-extension usr/bin/kdemangen.pl
 kdesdk-scripts: script-with-language-extension usr/bin/png2mng.pl
 kdesdk-scripts: script-with-language-extension usr/bin/zonetab2pot.py
+kdesdk-scripts: script-with-language-extension usr/bin/grantlee_strings_extractor.py
