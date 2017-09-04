@@ -6,11 +6,11 @@ Subject: append_kde
  CMakeLists.txt | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
-Index: kde-dev-scripts/CMakeLists.txt
+Index: source/CMakeLists.txt
 ===================================================================
---- kde-dev-scripts.orig/CMakeLists.txt
-+++ kde-dev-scripts/CMakeLists.txt
-@@ -83,7 +83,6 @@ install(PROGRAMS
+--- source.orig/CMakeLists.txt
++++ source/CMakeLists.txt
+@@ -72,7 +72,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
    colorsvn
@@ -18,9 +18,9 @@ Index: kde-dev-scripts/CMakeLists.txt
    svnlastchange
    svnversions
    extractrc
-@@ -106,4 +105,6 @@ install(PROGRAMS
+@@ -95,4 +94,6 @@ install(PROGRAMS
    grantlee_strings_extractor.py
-   DESTINATION ${BIN_INSTALL_DIR})
+   DESTINATION ${KDE_INSTALL_BINDIR})
  
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
 +
