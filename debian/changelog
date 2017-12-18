@@ -9,6 +9,8 @@ kde-dev-scripts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
   * Remove trailing whitespaces in changelog.
+  * Replace libkf5kdelibs4support-dev build dependency with
+    libkf5kdelibs4support5-bin: it is needed only for DocBook v4.2 DTDs.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:49 +0100
 
