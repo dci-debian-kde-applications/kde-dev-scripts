@@ -8,6 +8,7 @@ kde-dev-scripts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Standards-Version to 4.1.2, no changes required.
   * Simplify watch file, and switch it to https.
+  * Remove trailing whitespaces in changelog.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:49 +0100
 
@@ -222,7 +223,7 @@ kde-dev-scripts (4:14.11.97-0ubuntu1) vivid; urgency=medium
 kde-dev-scripts (4:4.14.2-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
-  * Fix space in copyright short license. 
+  * Fix space in copyright short license.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Oct 2014 04:19:01 -0700
 
