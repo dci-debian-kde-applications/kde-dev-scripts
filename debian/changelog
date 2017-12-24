@@ -1,4 +1,7 @@
-kde-dev-scripts (4:17.08.3-0r1) UNRELEASED; urgency=medium
+kde-dev-scripts (4:17.08.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable.
 
   [ Maximiliano Curia ]
   * Update uploaders list as requested by MIA team (Closes: #879323)
@@ -13,7 +16,7 @@ kde-dev-scripts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Remove the kde-l10n breaks/replaces, since there are no translations.
   * Remove the kdelibs5-doc suggest, as this package never existed.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:49 +0100
+ -- Pino Toscano <pino@debian.org>  Sun, 24 Dec 2017 14:55:06 +0100
 
 kde-dev-scripts (4:17.08.1-1) experimental; urgency=medium
 
