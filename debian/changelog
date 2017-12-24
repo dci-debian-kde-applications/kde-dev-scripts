@@ -11,6 +11,7 @@ kde-dev-scripts (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Replace libkf5kdelibs4support-dev build dependency with
     libkf5kdelibs4support5-bin: it is needed only for DocBook v4.2 DTDs.
   * Remove the kde-l10n breaks/replaces, since there are no translations.
+  * Remove the kdelibs5-doc suggest, as this package never existed.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 31 Oct 2017 17:59:49 +0100
 
