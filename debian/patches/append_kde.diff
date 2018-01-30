@@ -6,11 +6,11 @@ Subject: append_kde
  CMakeLists.txt | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
-Index: kde-dev-scripts-17.08.1/CMakeLists.txt
+Index: kde-dev-scripts-17.12.0/CMakeLists.txt
 ===================================================================
---- kde-dev-scripts-17.08.1.orig/CMakeLists.txt
-+++ kde-dev-scripts-17.08.1/CMakeLists.txt
-@@ -83,7 +83,6 @@ install(PROGRAMS
+--- kde-dev-scripts-17.12.0.orig/CMakeLists.txt
++++ kde-dev-scripts-17.12.0/CMakeLists.txt
+@@ -72,7 +72,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
    colorsvn
@@ -18,10 +18,12 @@ Index: kde-dev-scripts-17.08.1/CMakeLists.txt
    svnlastchange
    svnversions
    extractrc
-@@ -106,4 +105,6 @@ install(PROGRAMS
+@@ -95,6 +94,8 @@ install(PROGRAMS
    grantlee_strings_extractor.py
-   DESTINATION ${BIN_INSTALL_DIR})
+   DESTINATION ${KDE_INSTALL_BINDIR})
  
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
 +
  feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ if (KF5DocTools_FOUND)
+  kdoctools_install(po)
