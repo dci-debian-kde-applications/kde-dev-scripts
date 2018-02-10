@@ -5,6 +5,7 @@ kde-dev-scripts (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Remove the libkf5kdelibs4support5-bin build dependency, no more needed now.
   * Update the patches:
     - append_kde.diff: refresh, and use the newer cmake variable for the path
+  * Break/replace against kde-l10n that ships translations.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:20:30 +0100
 

@@ -30,8 +30,8 @@ Suggests: cvs,
           valgrind,
           xsltproc,
 Enhances: kate
-Breaks: pkg-kde-tools (<< 0.15.12ubuntu1~)
-Replaces: pkg-kde-tools (<< 0.15.12ubuntu1~)
+Breaks: ${kde-l10n:all}, pkg-kde-tools (<< 0.15.12ubuntu1~)
+Replaces: ${kde-l10n:all}, pkg-kde-tools (<< 0.15.12ubuntu1~)
 Description: scripts and data files for development
  This package contains scripts and data files to facilitate development of
  KDE software.  Also included are scripts which are not specific to
