@@ -1,12 +1,13 @@
 Author: Fathi Boudra <fabo@debian.org>
+Author: Pino Toscano <pino@debian.org>
 Description: Append "-kde" to svn-clean like KDE3.
  svn-clean script is provided by subversion-tools.
 Bug-Debian: http://bugs.debian.org/461095
-Last-Update: 2017-12-24
+Last-Update: 2018-02-10
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -83,7 +83,6 @@ install(PROGRAMS
+@@ -72,7 +72,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
    colorsvn
@@ -14,10 +15,12 @@ Last-Update: 2017-12-24
    svnlastchange
    svnversions
    extractrc
-@@ -106,4 +105,6 @@ install(PROGRAMS
+@@ -95,6 +94,8 @@ install(PROGRAMS
    grantlee_strings_extractor.py
-   DESTINATION ${BIN_INSTALL_DIR})
+   DESTINATION ${KDE_INSTALL_BINDIR})
  
-+install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
++install(PROGRAMS svn-clean DESTINATION ${KDE_INSTALL_BINDIR} RENAME svn-clean-kde)
 +
  feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+ if (KF5DocTools_FOUND)
+  kdoctools_install(po)
