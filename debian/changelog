@@ -6,6 +6,7 @@ kde-dev-scripts (4:17.12.2-0r1) UNRELEASED; urgency=medium
   * Update the patches:
     - append_kde.diff: refresh, and use the newer cmake variable for the path
   * Break/replace against kde-l10n that ships translations.
+  * Bump Standards-Version to 4.1.3, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 10 Feb 2018 11:20:30 +0100
 
