@@ -6,10 +6,10 @@ Subject: append_kde
  CMakeLists.txt | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
 
-Index: kde-dev-scripts-17.12.0/CMakeLists.txt
+Index: kde-dev-scripts-17.12.2/CMakeLists.txt
 ===================================================================
---- kde-dev-scripts-17.12.0.orig/CMakeLists.txt
-+++ kde-dev-scripts-17.12.0/CMakeLists.txt
+--- kde-dev-scripts-17.12.2.orig/CMakeLists.txt
++++ kde-dev-scripts-17.12.2/CMakeLists.txt
 @@ -72,7 +72,6 @@ install(PROGRAMS
    cvs-clean
    cvsblame
